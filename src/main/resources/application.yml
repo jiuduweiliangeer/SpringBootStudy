@@ -1,0 +1,11 @@
+person:
+  name: 李四
+  age: 11
+  boss: true
+  map: {k1: v1,k2: v2}
+  list:
+    -haha
+    -hehe
+  dog:
+    dname: 张三
+    dage: 4
