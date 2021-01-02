@@ -4,7 +4,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ImportResource;
 
-@ImportResource(locations = {"classpath:beans.xml"})//将xml文件配置导入配置类中
+/*@ImportResource(locations = {"classpath:beans.xml"})*///导入Spring的配置文件，让其生效
 @SpringBootApplication
 public class DemoApplication {
 

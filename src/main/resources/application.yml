@@ -1,11 +1,32 @@
-person:
-  name: 李四
-  age: 11
-  boss: true
-  map: {k1: v1,k2: v2}
-  list:
-    -haha
-    -hehe
-  dog:
-    dname: 张三
-    dage: 4
+server:
+  port: 8081
+spring:
+  profiles:
+    active: prod
+---
+server:
+  port: 8083
+spring:
+  profiles: dev
+---
+server:
+  port: 8084
+spring:
+  profiles: prod
+
+
+
+
+
+
+#person:
+#  name: 李四
+#  age: 11
+#  boss: true
+#  map: {k1: v1,k2: v2}
+#  list:
+#    -haha
+#    -hehe
+#  dog:
+#    dname: 张三
+#    dage: 4
